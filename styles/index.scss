@@ -1,0 +1,173 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.root {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+main {
+  width: 1200px;
+  margin: 0 auto;
+  
+  ;
+}
+
+.fs-simcs {
+  margin-top: 11px;
+  height: 40px;
+  text-align: center;
+  color: #cd1817;
+  margin: auto;
+}
+
+.fs-simbtn {
+  margin: 3px;
+  background-color: #007aff;
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.f-hdtop {
+  height: 56px;
+  background-color: #cd1817;
+}
+
+.fs-menu {
+  height: 36px;
+  background-color: #000;
+}
+
+.fpt-sale-coutdown {
+  height: 200px;
+  background-color: aqua;
+}
+
+.section-banner {
+  padding-bottom: 30px;
+
+  .col-md-8 {
+  height: 359px;
+  border: 1px solid black;
+  }
+
+
+  .col-md-4 {
+    height: 359px;
+    border: 1px solid black;
+    margin-left: -1px;
+  }
+
+}
+
+.section-box {
+  margin-bottom: 30px;
+  height: 320px;
+
+  .col-2 { 
+    height: 159px;
+  }
+}
+
+.slide-product {
+  padding-top: 15px;
+  .prd-sale {
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 18px;
+  }
+
+  .product-sale {
+    height: 440px;
+  }
+}
+
+#banner-html {
+  .category-container {
+    .bn-sale {
+      height: 700px;
+
+      .bn-head {
+        height: 160px;
+        margin-bottom: 10px;
+      }
+
+      .bn-list {
+        height: 340px;
+        margin-bottom: 20px;
+      }
+
+      .bn-discount {
+        justify-content: center;
+        margin-bottom: 20px;
+
+        .discount-left {
+          height: 54px;
+          width: 500px;
+        }
+
+        .discount-right {
+          height: 54px;
+          width: 500px;
+        }
+      }
+
+      .bn-bottom {
+        height: 30px;
+        width: 570px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.product-list {
+  margin-bottom: 30px;
+
+  .cat-prd-oustanding {
+    height: 24px;
+    margin: 20px;
+  }
+   .product-item {
+    height: 500px;
+   }
+
+}
+
+.accessories-list {
+  
+  .cat-prd-oustanding {
+    height: 24px;
+    margin-bottom: 15px;
+  }
+
+  .accessories-item {
+    height: 140px;
+  }
+}
+
+.fs-bxh {
+  margin-bottom: 15px;
+}
+
+.banner-cs {
+  height: 200px;
+  background-color: #66cdaa;
+  margin-bottom: 30px;
+}
+
+.fs-bxh {
+  height: 130px;
+  background-color: #6b8e23;
+}
+
+.fs-footer {
+  height: 300px;
+  background-color: #000;
+}
