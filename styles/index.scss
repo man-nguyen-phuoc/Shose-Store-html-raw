@@ -3,24 +3,35 @@
   padding: 0px;
 }
 
+#header {
+
+  .hd-top {
+    height: 56px;
+    background-color: #cd1817;
+    .hd-wrap {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  
+  .hd-menu {
+    height: 36px;
+    background-color: #000;
+  }
+  
+}
+
 .root {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
 }
+
+
 main {
   width: 1200px;
   margin: 0 auto;
-  
-  ;
-}
-
-.fs-simcs {
-  margin-top: 11px;
-  height: 40px;
-  text-align: center;
-  color: #cd1817;
-  margin: auto;
+  position: relative;
 }
 
 .fs-simbtn {
@@ -33,16 +44,6 @@ main {
   font-size: 12px;
 }
 
-.f-hdtop {
-  height: 56px;
-  background-color: #cd1817;
-}
-
-.fs-menu {
-  height: 36px;
-  background-color: #000;
-}
-
 .fpt-sale-coutdown {
   height: 200px;
   background-color: aqua;
@@ -51,13 +52,13 @@ main {
 .section-banner {
   padding-bottom: 30px;
 
-  .col-md-8 {
+  .col-sm-8 {
   height: 359px;
   border: 1px solid black;
   }
 
 
-  .col-md-4 {
+  .col-sm-4 {
     height: 359px;
     border: 1px solid black;
     margin-left: -1px;
@@ -157,6 +158,7 @@ main {
 }
 
 .banner-cs {
+  width: 100%;
   height: 200px;
   background-color: #66cdaa;
   margin-bottom: 30px;
