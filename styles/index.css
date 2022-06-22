@@ -4,12 +4,12 @@
 }
 
 #header .hd-top {
-  height: 56px;
   background-color: #cd1817;
 }
 #header .hd-top .hd-wrap {
-  width: 1200px;
   margin: 0 auto;
+  float: left;
+  justify-content: center;
 }
 #header .hd-menu {
   height: 36px;
@@ -28,32 +28,20 @@ main {
   position: relative;
 }
 
-.fs-simbtn {
-  margin: 3px;
-  background-color: #007aff;
-  color: white;
-  text-decoration: none;
-  border-radius: 2px;
-  padding: 5px;
-  font-size: 12px;
-}
-
-.fpt-sale-coutdown {
-  height: 200px;
-  background-color: aqua;
+.fpt-sale-coutdown img {
+  width: 1200px;
 }
 
 .section-banner {
   padding-bottom: 30px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.section-banner .col-sm-8 {
-  height: 359px;
-  border: 1px solid black;
+.section-banner .box-right {
+  padding-left: 0px;
 }
-.section-banner .col-sm-4 {
-  height: 359px;
-  border: 1px solid black;
-  margin-left: -1px;
+.section-banner .box-right .box-right-bn .box-right-bn-sl {
+  margin-bottom: 5px;
 }
 
 .section-box {
@@ -62,6 +50,16 @@ main {
 }
 .section-box .col-2 {
   height: 159px;
+  padding: 0px;
+  position: relative;
+}
+.section-box .col-2 .ct-item-a .cate-item {
+  padding: 15px;
+}
+.section-box .col-2 .ct-item-a .cate-item picture {
+  width: 95px;
+  height: 95px;
+  text-align: center;
 }
 
 .slide-product {

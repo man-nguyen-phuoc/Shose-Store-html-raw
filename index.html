@@ -7,6 +7,7 @@
   <title>FPT shop</title>
   <link rel="stylesheet" href="./styles/index.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
   <div id="header">
@@ -16,6 +17,24 @@
           <a href="#" class="hd-logo">
             <img src="./image/logo-fpt-shop.jpg" alt="" style="width: 200px;">
           </a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <ul class="hd-top-mn">
+            <li>
+              <a href=""><i class="fa-solid fa-file-lines"></i></a>
+              <span></span>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-list-check"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="hd-menu"></div>
@@ -30,19 +49,137 @@
     <div class="root">
       <main class="main-wrapper">
         <div class="fpt-sale">
-          <div class="fpt-sale-coutdown"></div>
+          <div class="fpt-sale-coutdown">
+              <div class="cale-cd-title">
+                <a href="#">
+                  <img src="./image/title.webp" alt="event">
+                </a>
+              </div>
+            </div>
+          </div>
           <section class="section-banner">
             <div class="container">
               <div class="row row-sm-12">
-                <div class="col-sm-8"></div>
-                <div class="col-sm-4"></div>
+                <div class="box-left col-sm-8">
+                  <div class="swiper-container">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./image/swiper 1.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./image/swiper 2.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./image/swiper3.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./image/wiper4.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./image/swiper5.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./image/swiper6.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./image/swiper7.webp" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="swiper-container">
+                    <div class="row row-flex">
+                      <div class="col swiper-slide">
+                        <div class="sl-name">iPhone 13 series reduced to 7.5 million VND</div>
+                      </div>
+                      <div class="col swiper-slide">
+                        <div class="sl-name">xiaomi simultaneously discount up to 50%</div>
+                      </div>
+                      <div class="col swiper-slide">
+                        <div class="sl-name">galaxy s22 series shock reduction</div>
+                      </div>
+                      <div class="col swiper-slide">
+                        <div class="sl-name">reno 7.0 old shock reduction from 8,190,000 VND</div>
+                      </div>
+                      <div class="col  swiper-slide">
+                        <div class="sl-name">Fan reduces shock by up to 50%</div>
+                      </div>
+                      <div class="col swiper-silde">
+                        <div class="sl-name">Laptop on sale again with great price</div>
+                      </div>
+                      <div class="col swiper-slide">
+                        <div class="sl-name">vico y21 series new price from 3,990,000 VND</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box-right col-sm-4">
+                  <div class="box-right-bn">
+                    <div class="boc-right-bn-sl margin-5">
+                      <a href="#">
+                        <img src="./image/box-left1.webp" alt="">
+                      </a>
+                    </div>
+                    <div class="boc-right-bn-sl">
+                      <a href="#">
+                        <img src="./image/box-left2.webp" alt="">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="box-right-news">
+                    <div class="box-body">
+                      <div class="caption-char">
+                        <h5>Highlights</h5>
+                      </div>
+                      <article class="news-item">
+                        <a href="#">
+                          <span class="picture">
+                            <img src="./image/FPT-0.webp" alt="">
+                          </span>
+                          <div class="news-item-if">
+                            <div class="news-item-if-mess">
+                              <b>receive a voucher of 50,000 VND</b>
+                            </div>
+                          </div>
+                        </a>
+                      </article>
+                      <article class="news-item">
+                        <a href="#">
+                          <span class="picture">
+                            <img src="./image/F-Story_70x40.webp" alt="">
+                            <div class="news-item-if-mess">
+                             <b>xiaomi m11 pro receive a discount of 3,090,000 VND</b>
+                            </div>
+                          </span>
+                        </a>
+                      </article>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
           <section class="section-box">
             <div class="container">
               <div class="row bg-white">
-                <div class="col-2 border"></div>
+                <div class="col-2 border">
+                  <a href="#" class="ct-item-a ct-transition">
+                    <div class="cate-item text-center">
+                      <picture class="picture">
+                        <img src="./image/icon-mobile.webp" alt="">
+                      </picture>
+                    </div>
+                  </a>
+                </div>
                 <div class="col-2 border"></div>
                 <div class="col-2 border"></div>
                 <div class="col-2 border"></div>
