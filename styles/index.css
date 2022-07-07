@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #header .hd-top {
@@ -18,12 +19,6 @@
 
 .root {
   max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-}
-
-main {
-  width: 1200px;
   margin: 0 auto;
   position: relative;
 }
@@ -48,31 +43,54 @@ main {
   margin-bottom: 30px;
   height: 320px;
 }
-.section-box .col-2 {
+.section-box div .list-product {
   height: 159px;
   padding: 0px;
-  position: relative;
 }
-.section-box .col-2 .ct-item-a .cate-item {
-  padding: 15px;
+.section-box div .list-product .ct-item-a {
+  height: 100%;
+  text-decoration: none;
 }
-.section-box .col-2 .ct-item-a .cate-item picture {
-  width: 95px;
-  height: 95px;
+.section-box div .list-product .ct-item-a .cate-item {
+  padding: 15px 15px;
   text-align: center;
 }
+.section-box div .list-product .ct-item-a .cate-item .picture {
+  position: relative;
+  width: 95px;
+  height: 95px;
+  background-color: #f4f4f4;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 20px;
+}
+.section-box div .list-product .ct-item-a .cate-item .picture img {
+  max-width: 60px;
+  max-height: 60px;
+}
+.section-box div .list-product .ct-item-a .cate-item .cate-item-name {
+  padding-top: 10px;
+  color: #000;
+}
+.section-box .list-product:hover {
+  border-color: #f4f4f4;
+}
 
-.slide-product {
+.section-box {
   padding-top: 15px;
 }
-.slide-product .prd-sale {
+.section-box .prd-sale {
   height: 40px;
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 18px;
 }
-.slide-product .product-sale {
+.section-box .product-sale {
   height: 440px;
+  padding-top: 12px;
+}
+.section-box .product-sale div .cdt-product-img {
+  width: 100%;
 }
 
 #banner-html .category-container .bn-sale {
@@ -81,6 +99,9 @@ main {
 #banner-html .category-container .bn-sale .bn-head {
   height: 160px;
   margin-bottom: 10px;
+}
+#banner-html .category-container .bn-sale .bn-head .head-tit {
+  padding: 16px 212px;
 }
 #banner-html .category-container .bn-sale .bn-list {
   height: 340px;
@@ -129,8 +150,6 @@ main {
 
 .banner-cs {
   width: 100%;
-  height: 200px;
-  background-color: #66cdaa;
   margin-bottom: 30px;
 }
 
