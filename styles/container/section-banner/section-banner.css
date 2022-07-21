@@ -1,0 +1,13 @@
+.section-banner {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+.section-banner .box-right {
+  padding-left: 0px;
+}
+.section-banner .box-right .box-right-bn .box-right-bn-sl {
+  margin-bottom: 5px;
+}/*# sourceMappingURL=section-banner.css.map */
