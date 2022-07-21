@@ -1,0 +1,26 @@
+#banner-html .category-container .bn-sale {
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+}
+#banner-html .category-container .bn-sale .bn-head {
+  height: 160px;
+  margin-bottom: 10px;
+}
+#banner-html .category-container .bn-sale .bn-head .head-tit {
+  padding: 16px 212px;
+}
+#banner-html .category-container .bn-sale .bn-list {
+  height: 340px;
+  margin-bottom: 20px;
+  padding: 0 40px;
+}
+#banner-html .category-container .bn-sale .bn-list .bn-item {
+  justify-content: center;
+}
+#banner-html .category-container .bn-sale .bn-bottom {
+  height: 30px;
+  width: 570px;
+  margin: 20px auto;
+  padding-bottom: 50px;
+}/*# sourceMappingURL=banner-html.css.map */

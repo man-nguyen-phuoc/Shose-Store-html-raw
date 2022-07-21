@@ -1,145 +1,30 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#header .hd-top {
-  background-color: #cd1817;
-}
-#header .hd-top .hd-wrap {
-  margin: 0 auto;
-  float: left;
-  justify-content: center;
-}
-#header .hd-menu {
-  height: 36px;
-  background-color: #000;
-}
-
-.root {
-  max-width: 1200px;
-  margin: 0 auto;
+.fs-content {
+  background-image: url("../image/background/637929172484358962_desk-header-bg-banner.webp");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
   position: relative;
-}
-
-main {
-  width: 1200px;
-  margin: 0 auto;
-  position: relative;
+  background-color: #f8f9fa;
 }
 
 .fpt-sale-coutdown img {
   width: 1200px;
 }
 
-.section-banner {
-  padding-bottom: 30px;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.section-banner .box-right {
-  padding-left: 0px;
-}
-.section-banner .box-right .box-right-bn .box-right-bn-sl {
-  margin-bottom: 5px;
-}
-
-.section-box {
-  margin-bottom: 30px;
-  height: 320px;
-}
-.section-box .col-2 {
-  height: 159px;
-  padding: 0px;
-  position: relative;
-}
-.section-box .col-2 .ct-item-a .cate-item {
-  padding: 15px;
-}
-.section-box .col-2 .ct-item-a .cate-item picture {
-  width: 95px;
-  height: 95px;
-  text-align: center;
-}
-
-.slide-product {
-  padding-top: 15px;
-}
-.slide-product .prd-sale {
-  height: 40px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 18px;
-}
-.slide-product .product-sale {
-  height: 440px;
-}
-
-#banner-html .category-container .bn-sale {
-  height: 700px;
-}
-#banner-html .category-container .bn-sale .bn-head {
-  height: 160px;
-  margin-bottom: 10px;
-}
-#banner-html .category-container .bn-sale .bn-list {
-  height: 340px;
-  margin-bottom: 20px;
-}
-#banner-html .category-container .bn-sale .bn-discount {
-  justify-content: center;
-  margin-bottom: 20px;
-}
-#banner-html .category-container .bn-sale .bn-discount .discount-left {
-  height: 54px;
-  width: 500px;
-}
-#banner-html .category-container .bn-sale .bn-discount .discount-right {
-  height: 54px;
-  width: 500px;
-}
-#banner-html .category-container .bn-sale .bn-bottom {
-  height: 30px;
-  width: 570px;
-  margin: 0 auto;
-}
-
-.product-list {
-  margin-bottom: 30px;
-}
-.product-list .cat-prd-oustanding {
-  height: 24px;
-  margin: 20px;
-}
-.product-list .product-item {
-  height: 500px;
-}
-
-.accessories-list .cat-prd-oustanding {
-  height: 24px;
-  margin-bottom: 15px;
-}
-.accessories-list .accessories-item {
-  height: 140px;
-}
-
-.fs-bxh {
-  margin-bottom: 15px;
-}
-
 .banner-cs {
-  width: 100%;
-  height: 200px;
-  background-color: #66cdaa;
   margin-bottom: 30px;
 }
-
-.fs-bxh {
-  height: 130px;
-  background-color: #6b8e23;
+.banner-cs > img {
+  width: 100%;
+  border-radius: 5px;
 }
 
 .fs-footer {
   height: 300px;
-  background-color: #000;
 }/*# sourceMappingURL=index.css.map */
