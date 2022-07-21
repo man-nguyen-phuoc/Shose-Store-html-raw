@@ -1,0 +1,22 @@
+#accessories-2 {
+  background-color: #FFF;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#accessories-2 .list-accessories {
+  width: 1296px;
+  margin: 0px auto;
+}
+#accessories-2 .list-accessories .item-accessories {
+  height: 129px;
+  padding: 0px;
+}
+#accessories-2 .list-accessories .item-accessories .cat-item > a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #646970;
+}
+#accessories-2 .list-accessories .item-accessories .cat-item > a > i {
+  font-size: 40px;
+  padding: 15px;
+}/*# sourceMappingURL=accessories-2.css.map */

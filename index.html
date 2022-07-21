@@ -5,6 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FPT shop</title>
+  <link rel="stylesheet" href="./styles/header/header_top/hd-top.css">
+  <link rel="stylesheet" href="./styles/header/header_menu/hd-menu.css">
+  <link rel="stylesheet" href="./styles/container/fs_bxh/fs-bxh-main.css">
+  <link rel="stylesheet" href="./styles/container/section-banner/section-banner.css">
+  <link rel="stylesheet" href="./styles/container/content-box-1/content-box-1.css">
+  <link rel="stylesheet" href="./styles/container/content-sale/content-sale.css">
+  <link rel="stylesheet" href="./styles/container/banner-html/banner-html.css">
+  <link rel="stylesheet" href="./styles/container/product-list/product-list.css">
+  <link rel="stylesheet" href="./styles/container/accsessories-2/accessories-2.css"> 
+  <link rel="stylesheet" href="./styles/container/banner-final/banner-final.css">
+  <link rel="stylesheet" href="./styles/footer/footer.css">
   <link rel="stylesheet" href="./styles/index.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -14,39 +25,115 @@
     <nav>
       <div class="hd-top">
         <div class="hd-wrap">
-          <a href="#" class="hd-logo">
-            <img src="./image/logo-fpt-shop.jpg" alt="" style="width: 200px;">
+          <a href="#">
+            <img class="hd-logo" src="./image/FPT_Shop.webp" alt="" style="width: 200px; color: #ffff;">
           </a>
-          <form class="d-flex">
+          <form class="search-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button>
+            <button class="search-icon">
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
           <ul class="hd-top-mn">
-            <li>
-              <a href=""><i class="fa-solid fa-file-lines"></i></a>
-              <span></span>
+            <li class="hd-top-mn-list">
+              <a href=""><i class="fa-solid fa-file-lines"></i>
+                <span>good information</span>
+              </a>
+              <ul class="hd-top-mn-item">
+                <li><a href="">
+                  news information
+                </a></li>
+                <li><a href="">
+                  promotion
+                </a></li>
+                <li><a href="">
+                  tips
+                </a></li>
+                <li><a href="">
+                  for gamers
+                </a></li>
+                <li><a href="">
+                  video hot
+                </a></li>
+                <li><a href="">
+                  evaluate-advies
+                </a></li>
+                <li><a href="">
+                  app & game
+                </a></li>
+                <li><a href="">
+                  event
+                </a></li>
+              </ul>
             </li>
             <li>
-              <a href=""><i class="fa-solid fa-list-check"></i></a>
+              <a href=""><i class="fa-solid fa-list-check"></i>
+                <span>pay & utilities</span>
+              </a>
             </li>
             <li>
-              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href=""><i class="fa-solid fa-cart-shopping"></i>
+                <span>cart</span>
+              </a>
             </li>
           </ul>
         </div>
       </div>
-      <div class="hd-menu"></div>
+      <div class="hd-menu">
+        <div class="hd-wrap">
+          <ul class="hd-list-menu">
+            <style>
+              h6 {
+                font-size: 13px;
+              }
+            </style>
+            <li><a href="">
+              <i class="fa-solid fa-mobile-screen"></i>
+              <h6>PHONE</h6>
+            </a></li>
+            <li><a href="">
+              <i class="fa-solid fa-laptop"></i>
+              <h6>LAPTOP</h6>
+            </a></li>
+            <li><a href="">
+              <i class="fa-solid fa-tablet-screen-button"></i>
+              <h6>TAPLET-IPAD</h6>
+            </a></li>
+            <li><a href="">
+              <i class="fa-solid fa-apple-whole"></i>
+              <h6>APPLE</h6>
+            </a></li>
+            <li><a href="">
+              <i class="fa-solid fa-computer"></i>
+              <h6>PC-ACCESSORIES</h6>
+            </a></li>
+            <li><a href="">
+              <i class="fa-solid fa-headphones-simple"></i>
+              <h6>ACCESSORY</h6>
+            </a></li>
+            <li><a href="">
+              <i class="fa-solid fa-arrows-spin"></i>
+              <h6>CHEAP OLD MACHINE</h6>
+            </a></li>
+            <li><a href="">
+              <i class="fa-solid fa-warehouse"></i>
+              <h6>HOUSEHOLD APPLIANCES</h6>
+            </a></li>
+            <li><a href="">
+              <i class="fa-solid fa-sd-card"></i>
+              <h6>CARD</h6>
+            </a></li>
+            <li><a href="">
+              <i class="fa-solid fa-certificate"></i>
+              <h6>PROMOTION</h6>
+            </a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </div>
-  <!-- <header class="fs-header row">
-    <div class="f-hdtop">
-    </div>
-    <nav class="fs-menu"></nav>
-  </header> -->
-  <div class="container">
-    <div class="root">
+  <div class="fs-content">
+    <div class="container" id="container">
       <main class="main-wrapper">
         <div class="fpt-sale">
           <div class="fpt-sale-coutdown">
@@ -57,7 +144,7 @@
               </div>
             </div>
           </div>
-          <section class="section-banner">
+          <div class="section-banner">
             <div class="row row-sm-12">
               <div class="box-left col-sm-8">
                 <div class="swiper-container">
@@ -165,8 +252,8 @@
                 </div>
               </div>
             </div>
-          </section>
-          <section class="section-box">
+          </div>
+          <section class="content-box-1">
             <div class="row bg-white">
               <div class="list-product col-2 border">
                 <a href="#" class="ct-item-a ct-transition">
@@ -291,22 +378,23 @@
             </div>
           </section>
           <div class="banner-sale">
-            <img src="./image/banner-sale.webp" alt="">
+            <img src="./image/banner-sale.webp" alt="" style="width: 100%; border-radius:5px; margin-bottom: 20px;">
           </div>                              
-          <section class="section-box slide-product" style="height: 630px;">
-            <div class="prd-sale">
-              <h2 style="color: red;">HOT PROMOTION</h2>
-            </div>
+          <section class="content-sale slide-product">
             <div class="row">
+              <div class="prd-sale col-12">
+                <h2 style="color: red;">HOT PROMOTION</h2>
+              </div>
               <div class="product-sale col-md-3 border">
-                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
-                 <a href="#">
-                  <span class="lazy-load-image-background" style=" display:inline-block; height:210px; width: 100%;"> 
+                <div style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                  <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%; text-align: center;"> 
+                    <img style="max-width: 50%; padding-top: 30px;" src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/9/637800453115752334_samsung-galaxy-s22-ultra-den-1.jpg" alt="">
                   </span>
-                 </a>
+                  </a>
                 </div>
                 <div class="cdt-product-info">
-                  <a href="#" class="cdt-product-name">Iphone 13 Pro Max 128G</a>
+                  <a href="#" class="cdt-product-name"><b>Samsung Galaxy S22 Untal 5G 256GB</b></a>
                   <div class="cdt-product_show-promo">
                     <div class="progress">
                       27.990.000 VND
@@ -315,7 +403,7 @@
                     <div class="strike-price">
                       <p>33.990.000 VND</p>
                       <div class="cd">
-
+  
                       </div>
                     </div>
                   </div>
@@ -336,116 +424,1212 @@
                 </div>
               </div>
               <div class="product-sale col-md-3 border">
-                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
-                 
+                <div style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                  <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%; text-align: center;"> 
+                    <img style="max-width: 50%; padding-top: 30px;" src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/8/637613342139496099_oppo-reno6z-dd.jpg" alt="">
+                  </span>
+                  </a>
+                </div>
+                <div class="cdt-product-info">
+                  <a href="#" class="cdt-product-name"><b>OPPO Reno6 Z 5G</b></a>
+                  <div class="cdt-product_show-promo">
+                    <div class="progress">
+                      27.990.000 VND
+                      <div class="progress-bar" style="width: 82%;"></div>
+                    </div>
+                    <div class="strike-price">
+                      <p>33.990.000 VND</p>
+                      <div class="cd">
+  
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cdt-product__config">
+                    <div class="cdt-product__img-promo">
+                      <span>
+                        <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                      </span>
+                      <span>
+                        <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                      </span>
+                      <span>
+                        <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                      </span>
+                      <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="product-sale col-md-3 border">
-                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
-                 
+                <div style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                  <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%; text-align: center;"> 
+                    <img style="max-width: 50%; padding-top: 30px;" src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/9/14/637672106067483466_xiaomi-redmi-10-xam-dd.jpg" alt="">
+                  </span>
+                  </a>
+                </div>
+                <div class="cdt-product-info">
+                  <a href="#" class="cdt-product-name"><b>Xiaomi Redmi 10 4GB-128GB 2021</b></a>
+                  <div class="cdt-product_show-promo">
+                    <div class="progress">
+                      27.990.000 VND
+                      <div class="progress-bar" style="width: 82%;"></div>
+                    </div>
+                    <div class="strike-price">
+                      <p>33.990.000 VND</p>
+                      <div class="cd">
+  
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cdt-product__config">
+                    <div class="cdt-product__img-promo">
+                      <span>
+                        <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                      </span>
+                      <span>
+                        <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                      </span>
+                      <span>
+                        <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                      </span>
+                      <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="product-sale col-md-3 border">
-                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
-                 
+                <div style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                  <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%; text-align: center;"> 
+                    <img style="max-width: 50%; padding-top: 30px;" src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864982144816513_iphone-13-pro-max-dd-2-128-256-512-1tb.jpg" alt="">
+                  </span>
+                  </a>
+                </div>
+                <div class="cdt-product-info">
+                  <a href="#" class="cdt-product-name"><b>iPhone 13 Pro Max 128GB</b></a>
+                  <div class="cdt-product_show-promo">
+                    <div class="progress">
+                      27.990.000 VND
+                      <div class="progress-bar" style="width: 82%;"></div>
+                    </div>
+                    <div class="strike-price">
+                      <p>33.990.000 VND</p>
+                      <div class="cd">
+  
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cdt-product__config">
+                    <div class="cdt-product__img-promo">
+                      <span>
+                        <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                      </span>
+                      <span>
+                        <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                      </span>
+                      <span>
+                        <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                      </span>
+                      <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </section>
         <div class="banner-cs">
-          <img src="./image/banner-cs/637896382102651933_F-H5_1200x200.webp" alt="" style="width: 100%;">
+          <img src="./image/banner-cs/637896382102651933_F-H5_1200x200.webp" alt="" style="width: 100%; border-radius: 5px;">
         </div>
         <div class="fs-bnord" id="banner-html">
           <div class="category-container">
-            <div class="bn-sale" style="background: url(./image/banner-cs/download.jpeg) no-repeat; background-size: 100% 100%;">
+            <div class="bn-sale" style="background: url(./image/background/637929172484358962_desk-header-bg-banner.webp); background-size: 100% 100%; background-color: brown;">
               <div class="bn-head">
-                <div class="head-tit">
+                <div class="head-tit" style="text-align: center;">
                   <img src="./image/banner-cs/7-banner.png" alt="">
                 </div>
               </div>
-              <div class="bn-list border">
-                <div class="row">
-                  <div class="col-sm-6"></div>
-                  <div class="col-sm-6"></div>
-                  <div class="col-sm-6"></div>
-                  <div class="col-sm-6"></div>
+              <div class="row bn-list">
+                <div class="col bn-item">
+                  <div style="background-color: white; height: 100%; border-radius: 5px">
+                    <div class="list-img">
+                      <img src="https://images.fpt.shop/unsafe/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/15/637935171029803088_html-banner.png" alt="Apple giảm đến 20%++" style="max-width: 100%;">
+                    </div>
+                  </div>
+                </div>
+                <div class="col bn-item">
+                  <div style="background-color: white; height: 100%; border-radius: 5px">
+                    <div class="list-img">
+                      <img src="https://images.fpt.shop/unsafe/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/15/637935171031211191_html-banner2.png" alt="Apple giảm đến 20%++" style="max-width: 100%;">
+                    </div>
+                  </div>
+                </div>
+                <div class="col bn-item">
+                  <div style="background-color: white; height: 100%; border-radius: 5px">
+                    <div class="list-img">
+                      <img src="https://images.fpt.shop/unsafe/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/15/637935171031211191_html-banner3.png" alt="Apple giảm đến 20%++" style="max-width: 100%;">
+                    </div>
+                  </div>
+                </div>
+                <div class="col bn-item">
+                  <div style="background-color: white; height: 100%; border-radius: 5px">
+                    <div class="list-img">
+                      <img src="https://images.fpt.shop/unsafe/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/15/637935171031211191_html-banner4.png" alt="Apple giảm đến 20%++" style="max-width: 100%;">
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="bn-discount row">
-                <div class="discount-left border col-6"></div>
-                <div class="discount-right border col-6"></div>
+              <div class="bn-bottom">
+                <img src="https://fptshop.com.vn/Uploads/originals/2022/7/8/637928761641525476_des-sub-text.png" alt="">
               </div>
-              <div class="bn-bottom border"></div>
             </div>
           </div>
         </div>
-        <section class="section-box product-list" style="height: 1065px;">
-          <div class="cat-prd-oustanding border"></div>
+        <section class="section-box" id="product-list">
+          <div class="cat-prd-oustanding">
+            <h2>MOBILE PHOME DISCOUNT</h2>
+          </div>
             <div class="row">
-              <div class="product-item col-md-3 border"></div>
-              <div class="product-item col-md-3 border"></div>
-              <div class="product-item col-md-3 border"></div>
-              <div class="product-item col-md-3 border"></div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/10/26/637393169370871358_ip-11-dd.png" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Iphone 11 64GB</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/28/637816817507294378_oppo-reno7-z-dd.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>OPPO Reno7 Z 5G 8GB-128GB</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/10/637851846462573963_samsung-galaxy-a33-den-dd.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Samsung Galaxy A33 5G</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/28/637816731075634766_xiaomi-redmi-note-11s-xam-dd-2.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Xiaomi Redmi Note 11S 6GB-128GB</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;"> 
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/21/637834866992076216_nokia-g21-tim-dd.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Nokia G21 6GB-128GB</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/4/637925294823972014_samsung-galaxy-a53-xanh-dd-icon.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Samsung Galaxy A53 5G 256GB</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/6/13/637907317057450509_iphone-13-dd-bh-2nam.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>iPhone 13 128GB</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/8/13/637644824833391058_vivo-y21-xanh-dd.jpg" alt=""> 
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Vivo Y21 4GB+1GB - 64GB</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </section>
+        <div class="banner-cs">
+          <img src="https://images.fpt.shop/unsafe/fit-in/1200x200/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/6/30/637922251892840909_F-H5_1200x200.png" alt="">
+        </div>
+        <section class="section-box" id="product-list">
+          <div class="cat-prd-oustanding">
+            <h2>LAPTOP DISCOUNT</h2>
+          </div>
+            <div class="row">
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>MacBook Air 13" 2020 M1 256GB</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/6/3/637583197352498860_hp-240-g8-bac-dd.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>HP 240 G8 i3 1005G1/519A6PA</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/21/637861580898196452_lenovo-ideapad-3-15itl6-vang-dd-1.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Laptop Lenovo IdeaPad Slim 3 15ITL6 i3 </br> 115G4/8GB/512GB/15,6"FHD/W... </b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/1/26/637787904727727554_asus-tuf-gaming-fx506lh-den-2022-dd.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Laptop Asus TUF Gaming <br> FX506LHB-HN188W i5 <br> 10300H/8GB/512GB/15.6"FHD/G...</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;"> 
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/11/18/637728596076020587_acer-aspire-gaming-a715-42g-r1sb-r5-5500u-den-dd.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Laptop Acer Aspire Gaming A715-42G-R05G R5 5500U</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/6/7/637902206651498845_asus-tuf-gaming-fx516pc-hn558w-i5-11300h-dd.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Laptop Asus TUF Gaming FX516PC - HN558W i5 11300H/8GB/512GB SSD/15.6"FHD/GeForce RTX3050...</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/9/18/637360390392454557_hp-envy-13-vang-dd.png" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Laptop HP Envy 13 ba1536TU i5 1135G7/8GB/512GB/13.3"FHD...</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/8/7/637639339928194488_msi-gaming-gf63-den-dd.jpg" alt=""> 
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Laptop MSI Gaming GF63 Thin 10SC-481VN i7 10750H/8GB/512GB/15.6"FHD...</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </section>
+        <div class="banner-cs">
+          <img src="https://images.fpt.shop/unsafe/fit-in/1200x100/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/5/637926428304638915_F-H7_1200x100.png" alt="">
+        </div>
+        <section class="section-box" id="product-list">
+          <div class="cat-prd-oustanding">
+            <h2>IPAD-TABLET DISCOUNT</h2>
+          </div>
+            <div class="row">
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/4/21/637546013880588874_ipad-pro-11-wifi-dd.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>iPad Pro 11 2021 M1 Wifi 128GB</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/11/637931283633045136_samsung-galaxy-tab-s6-lite-2022-xanh-dd-logo.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Samsung Galaxy Tab S6 Lite 2022</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/6/20/637913223434531480_may-tinh-bang-masstel-tab-10m-4g-xanh-navy-dd-1.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Masstel Tab 10M 4G</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="product-item col-md-3 border">
+                <div class="cdt-product-img " style=" background-image: url(./image/list-product/images.png); background-repeat: no-repeat; height: 210px; background-size: 100%;">
+                  <a href="#">
+                    <span class="lazy-load-image" style=" display:inline-block; height:210px; width: 100%;">
+                      <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/5/27/637892435591469037_lenovo-tab-m10-gen-2-xam-dd-bh2nam.jpg" alt="">
+                    </span>
+                  </a>
+                  </div>
+                  <div class="cdt-product-info">
+                    <a href="#" class="cdt-product-name"><b>Lenovo Tab 10M 64GB (Gen2)</b></a>
+                    <div class="cdt-product_show-promo">
+                      <div class="progress">
+                        27.990.000 VND
+                        <div class="progress-bar" style="width: 82%;"></div>
+                      </div>
+                      <div class="strike-price">
+                        <p>33.990.000 VND</p>
+                        <div class="cd">
+  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cdt-product__config">
+                      <div class="cdt-product__img-promo">
+                        <span>
+                          <img src="./image/img-promo/moca.webp" alt="70% discount when paying via moca wallet on grap app" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/ic-tp-bank.webp" alt="Up to 1.1 million when using TPBANK EVO card" style="border-radius: 50%;">
+                        </span>
+                        <span>
+                          <img src="./image/img-promo/vnpay400.webp" alt="Enter code EPTIP13 to get 5% discount up to VND 500,000 when paying via VNPAY-QR" style="border-radius: 50%;">
+                        </span>
+                        <div id="productPromotionHotPromotion" class="cdt-product__text-promo"></div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </section>
+        <div class="banner-cs">
+          <div class="row" style="height:160px; justify-content: space-between;">
+            <div class="col-6">
+              <img style="border-radius: 5px; width: 100%;" src="https://images.fpt.shop/unsafe/fit-in/590x160/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/11/637931767838555080_F-C3_590x160.png" alt="">
+            </div>
+            <div class="col-6">
+              <img style="border-radius: 5px; width: 100%;" src="https://images.fpt.shop/unsafe/fit-in/590x160/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/6/30/637922302516230858_F-C3_590x160.png" alt="">
             </div>
           </div>
-        </section>
-        <div class="banner-cs"></div>
-        <section class="section-box product-list" style="height: 1065px">
-          <div class="cat-prd-oustanding border"></div>  
-          <div class="row">
-            <div class="product-item col-md-3 border"></div>
-            <div class="product-item col-md-3 border"></div>
-            <div class="product-item col-md-3 border"></div>
-            <div class="product-item col-md-3 border"></div>
+        </div>
+        <div id="accessories-2">
+          <div class="accessories-title">
+            <h3><b>LIST ACCESSORIES</b></h3>
           </div>
-          <div class="row">
-            <div class="product-item col-md-3 border"></div>
-            <div class="product-item col-md-3 border"></div>
-            <div class="product-item col-md-3 border"></div>
-            <div class="product-item col-md-3 border"></div>
+          <div class="row list-accessories">
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-solid fa-medal"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-solid fa-folder-open"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-solid fa-battery-full"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-solid fa-sd-card"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-brands fa-apple"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-solid fa-mobile-button"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-solid fa-headphones"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-solid fa-print"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
           </div>
-        </section>
-        <div class="banner-cs"></div>
-        <section class="section-box slide-product" style="height: 630px;">
-          <div class="prd-sale border"></div>
-          <div class="row">
-            <div class="product-sale col-md-3 border"></div>
-            <div class="product-sale col-md-3 border"></div>
-            <div class="product-sale col-md-3 border"></div>
-            <div class="product-sale col-md-3 border"></div>
-          </div>
-        </section>
-        <div class="banner-cs"></div>
-        <div class="section-box accessories-list">
-          <div class="cat-prd-oustanding border"></div>
-          <div class="row row-flex">
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
-          </div>
-          <div class="row row-flex">
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
-            <div class="accessories-item col border"></div>
+          <div class="row list-accessories">
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-brands fa-speaker-deck"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-solid fa-hard-drive"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-brands fa-usb"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-solid fa-computer-mouse"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-solid fa-keyboard"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-solid fa-box-open"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-solid fa-tv"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
+            <div class="col item-accessories border">
+              <div class="cat-item text-center">
+                <a href="">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <div class="cat-item-name">Featured device</div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="fs-bxh"></div>
+            
+        <div class="category" id="banner-final">
+          <ul class="fs-bxh-main">
+            <li>
+              <a href="#">
+                <span class="lazy-load-image-background">
+                  <img src="https://images.fpt.shop/unsafe/fit-in/394x115/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/6/4/637584199039669299_icon-desktop-1.png" alt="">
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="lazy-load-image-background">
+                  <img src="https://images.fpt.shop/unsafe/fit-in/394x115/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/6/4/637584199040294624_icon-desktop.png" alt="">
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="lazy-load-image-background">
+                  <img src="https://images.fpt.shop/unsafe/fit-in/394x115/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/5/12/637248776517146629_f-friends.png" alt="">
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </main>
     </div>
   </div>
-  <footer>
-    <div class="fs-footer"></div>
-    <div class="fs-ftbott"></div>
+  <footer id="footer">
+    <div class="container">
+      <div class="fpt-footer row">
+        <div class="fpt-ft-col col">
+          <ul class="fpt-ftul">
+            <li><a href="">Introduce about the company</a></li>
+            <li><a href="">Frequently questions when buying</a></li>
+            <li><a href="">Privacy policy</a></li>
+            <li><a href="">Operating regulations</a></li>
+            <li><a href="">Check e-invoice</a></li>
+            <li><a href="">Look up warranty information</a></li>
+          </ul>
+        </div>
+        <div class="fpt-ft-col col">
+          <ul class="fpt-ftul">
+            <li><a href="">Recruitment</a></li>
+            <li><a href="">Promotion information</a></li>
+            <li><a href="">online buying guide</a></li>
+            <li><a href="">Installment buying guide</a></li>
+            <li><a href="">Installment policy</a></li>
+          </ul>
+        </div>
+        <div class="fpt-ft-col col">
+          <ul class="fpt-ftul">
+            <li><a href="">Shop system</a></li>
+            <li><a href="">Warranty system</a></li>
+            <li><a href="">Business sales</a></li>
+            <li><a href="">introducing the exchange machine</a></li>
+            <li><a href="">Return policy</a></li>
+          </ul>
+        </div>
+        <div class="fpt-ft-col col-5">
+          <ul class="fpt-ftul-2">
+            <li>
+							<p class="fpt-ft-tit">Shopping advice (Free)</p>
+							<a href="" title="">1800 6601 </a>
+							<span>(Branch 1)</span>
+							<p class="fpt-ft-tit">Technical assistance</p>
+							<a href="" title="">1800 6601 </a>
+							<span>(Branch 2)</span>
+						</li>
+						<li style="width: 300px;">
+							<p class="fpt-ft-tit">Feedback, Service complaint (8.00-22.00)</p>
+							<a href="" title="">1800 6616</a>
+						  </br>
+					  </li>
+          </ul>
+          <div class="support row">
+            <div class="payment-support col-5">
+              <p class="fpt-ft-tit">Payment support:</p>
+              <a href="">
+                <img src="./image/img-promo/download.png" alt="">
+              </a>
+              <a href="">
+                <img src="./image/img-promo/images.jpeg" alt="">
+              </a>      
+              <a href="">
+                <img src="./image/img-promo/download (1).png" alt="">
+              </a> 
+              <ul style="padding:0px; margin:10px 0px 0px;">
+                <a href="">
+                  <img style="width: 40px; height:40px" src="./image/img-promo/download (3).png" alt="">
+                </a>
+                <a href="">
+                <img style="width: 98px; height: 30px;" src="./image/img-promo/download (2).png" alt="">
+                </a>
+              </ul>     
+            </div>
+            <div class="link_company col-7">
+              <p class="fpt-ft-tit">Certification:</p>
+              <img src="./image/img-promo/images (1).jpeg" alt="">
+              <img src="./image/img-promo/download (4).png" alt="">
+              <img src="./image/img-promo/download.jpeg" alt="">
+              <p style="margin: 4px 0px;">Website of coporation: </p>
+              <img class="img-coporation" src="./image/img-promo/download (5).png" alt="">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

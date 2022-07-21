@@ -1,0 +1,32 @@
+#header {
+    .hd-menu {
+        height: 36px;
+        background-color: #000;
+
+        .hd-wrap {
+            width: 1200px;
+            margin: 0px auto;
+
+            .hd-list-menu {
+                position: relative;
+                display: inline-flex;
+                text-align: center;
+
+                > li {
+                    flex: auto;
+                    margin-right: 16px;
+                    height: 100%;
+                    position: relative;
+                    list-style: none;
+
+                    > a {
+                        display: flex ;
+                        padding-top: 10px;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
